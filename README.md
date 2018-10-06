@@ -70,13 +70,13 @@ ERROR! Attempting to decrypt but no vault secrets found
 
 Instead, we can use use the argument "--ask-vault-pass" to provide the vault password or Save your vault password in a file and call the vault password file using the argument "--vault-password-file".
 
-  ### - Using the arguement "--ask-vault-pass"
+  ### Using the arguement "--ask-vault-pass"
 ```yaml
 ansible-playbook users.yml --ask-vault-pass
 Vault password:
 ```
 
-  ### - Using the arguement "--vault-password-file"
+  ### Using the arguement "--vault-password-file"
 ```yaml
 ansible-playbook users.yml --vault-password-file /anmol/.ansible/vault-passwd
 ```
@@ -100,12 +100,12 @@ Vault password:
 Decryption successful
 ```
 
-### Read More
+### 📚Read More
 
 - [Ansible-Vault](https://docs.ansible.com/ansible/2.4/vault.html)
 ---
 
-## 👬 Contribution
+## 👬Contribution
 
 - Open pull request with improvements
 - Discuss ideas in issues
