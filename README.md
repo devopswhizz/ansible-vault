@@ -100,11 +100,11 @@ Vault password:
 Decryption successful
 ```
 
-#### Read More
+### Read More
 
-- [Playbooks - http://docs.ansible.com/ansible/playbooks.html](http://docs.ansible.com/ansible/playbooks.html)
-
+- [Ansible-Vault](https://docs.ansible.com/ansible/2.4/vault.html)
 ---
+
 ## 👬 Contribution
 
 - Open pull request with improvements
