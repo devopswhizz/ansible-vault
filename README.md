@@ -1,6 +1,6 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/4303310/46391467-20d2c480-c6ee-11e8-9d0a-7f8bc09bb022.jpg" /></p>
 
-> Ansible Boilerplate Code
+> Use Ansible Vault To Protect Ansible Playbooks 
 
 <p align="center">
     <a href="LICENSE.md">
@@ -11,9 +11,8 @@
     </a>
   </p>
 </p>
-## Use Ansible Vault To Protect Ansible Playbooks 
 
-New in Ansible 1.5, “Vault” is a feature of ansible that allows keeping sensitive data such as passwords or keys in encrypted files, rather than as plaintext in your playbooks or roles. These vault files can then be distributed or placed in source control. To enable this feature, a command line tool, ansible-vault is used to edit files, and a command line flag –ask-vault-pass or –vault-password-file is used. Alternately, you may specify the location of a password file or command Ansible to always prompt for the password in your ansible.cfg file. These options require no command line flag usage.
+New in **Ansible 1.5, “Vault”** is a feature of ansible that allows keeping sensitive data such as passwords or keys in encrypted files, rather than as plaintext in your playbooks or roles. These vault files can then be distributed or placed in source control. To enable this feature, a command line tool, ansible-vault is used to edit files, and a command line flag –ask-vault-pass or –vault-password-file is used. Alternately, you may specify the location of a password file or command Ansible to always prompt for the password in your ansible.cfg file. These options require no command line flag usage.
 
 ### How to encrypt the Ansible Playbook
 Use the option "encrypt" along with ansible-vault command. Enter the vault password twice you wish to set for the
