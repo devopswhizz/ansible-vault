@@ -78,7 +78,7 @@ Vault password:
 
   ### - Using the arguement "--vault-password-file"
 ```yaml
-ansible-playbook users.yml --vault-password-file /root/ansible/vault-passwd
+ansible-playbook users.yml --vault-password-file /root/anmol/vault-passwd
 ```
 
 ### How to change the existing vault password?
