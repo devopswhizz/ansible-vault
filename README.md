@@ -1,4 +1,4 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/4303310/46391467-20d2c480-c6ee-11e8-9d0a-7f8bc09bb022.jpg" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/4303310/46570220-ea0ce080-c971-11e8-954c-484616e51055.jpg" /></p>
 
 > Use Ansible Vault To Protect Ansible Playbooks 
 
