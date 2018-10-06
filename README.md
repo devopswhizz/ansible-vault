@@ -47,7 +47,7 @@ Vault password:
   tasks:
   - name: Adding Users
     user:
-     name: Anmol
+     name: anmol
      password: devops@123
      comment: "Anmol Nagpal"
      shell: /bin/bash
